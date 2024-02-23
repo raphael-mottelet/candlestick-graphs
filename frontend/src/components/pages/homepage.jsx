@@ -28,13 +28,12 @@ const GraphPage = () => {
 
   return (
     <div className="app">
-      <h1>Cryptocurrency Candlestick Chart</h1>
+      <h1>Candlestick Chart</h1>
       <Carousel
         selectedCrypto={selectedCrypto}
         onSelectCrypto={handleCryptoChange}
       />
       <Chart cryptoData={cryptoData} />
-      <Candlestick cryptoData={cryptoData} />
     </div>
   );
 };
