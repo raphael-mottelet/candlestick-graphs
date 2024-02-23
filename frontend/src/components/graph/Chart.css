@@ -1,14 +1,22 @@
 /* Chart.css */
+/* Chart.css */
 .chart-container {
-    background-color: #f0f0f0;
-    padding: 20px;
-    margin-bottom: 20px;
+    position: relative;
   }
   
-  /* Candlestick.css */
-  .candlestick-container {
-    background-color: #f0f0f0;
-    padding: 20px;
-    margin-bottom: 20px;
+  .chart-container button {
+    position: absolute;
+    top: 20px; /* Ajustez selon vos besoins */
+    right: 20px; /* Ajustez selon vos besoins */
+    padding: 10px 20px; /* Ajustez selon vos besoins */
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .chart-container button:hover {
+    background-color: #0056b3;
   }
   
