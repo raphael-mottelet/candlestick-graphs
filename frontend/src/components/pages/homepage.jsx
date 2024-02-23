@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Chart from '../graph/graph';
 import Candlestick from '../candlestick/candlestick';
-import Carousel from '../carousel/carousel';
+import Carousel from '../CryptoList/cryptolist';
 import TimeScaleButtons from '../Buttons/time-scale-buttons';
 
 const GraphPage = () => {
